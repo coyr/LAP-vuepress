@@ -6,19 +6,19 @@ webhook_url:
 sections:
 - type: document
   path: portfolio/index.md
-  label: Homepage
+  label: Inicio
   templates:
   - settings
 - type: directory
   path: portfolio/works
-  label: Works
+  label: Para mi
   create: all
   match: "**/*"
   templates:
   - works
 - type: directory
   path: portfolio/journal
-  label: Journal
+  label: Blog
   create: all
   match: "**/[!index]*"
   templates:
